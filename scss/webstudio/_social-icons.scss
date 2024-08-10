@@ -1,0 +1,187 @@
+.social-icons-link:hover{
+    fill: white;
+    background-color: #2196F3;
+   }
+
+   .social-icons-link{
+    padding: 15px;
+    border-radius: 50%;
+    height: 20px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+
+   .social-icons-link:hover svg{
+    fill: white;
+   }
+
+   .social-icons {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .social-icons a {
+    margin: 0 5px;
+    }
+    
+    .social-icons img {
+    width: 24px;
+    height: 24px;
+    }
+
+    .social-icons:hover{
+        color: #2196F3;
+    }
+
+    .phone{
+        fill: gray;
+        width: 13px;
+        height: 13px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .envelope{
+        fill: gray;
+        width: 19px;
+        height: 19px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .phone:hover{
+        fill: #2196F3;
+       }
+
+       .envelope:hover{
+        fill: #2196F3;
+       }
+
+       .instagram{
+        width: 20px;
+        height: 20px;
+        fill: gray;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .in{
+        fill: gray;
+        width: 20px;
+        height: 20px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .facebook{
+        fill: gray;
+        width: 20px;
+        height: 20px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .twitter{
+        fill: gray;
+        width: 20px;
+        height: 20px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .instagram1{
+        width: 20px;
+        height: 20px;
+        fill: white;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .instagram1:hover{
+        fill: white;
+       }
+
+       .facebook1{
+        width: 20px;
+        height: 20px;
+        fill: white;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .twitter1{
+        width: 20px;
+        height: 20px;
+        fill: white;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+
+       .in1{
+        fill: white;
+        width: 20px;
+        height: 20px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+
+       .group{
+        fill: gray;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group:hover{
+        fill: #2196F3;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group1{
+        fill: gray;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group1:hover{
+        fill: #2196F3;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group2{
+        fill: gray;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group2:hover{
+        fill: #2196F3;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+       
+       .group3{
+        fill: gray;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group3:hover{
+        fill: #2196F3;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group4{
+        fill: gray;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group4:hover{
+        fill: #2196F3;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group5{
+        fill: gray;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .group5:hover{
+        fill: #2196F3;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+
+       .social{
+        position: absolute;
+        left: 550px;
+    }
+
+    .postini{
+        display: flex;
+        justify-content: space-between;
+    }

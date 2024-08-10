@@ -1,0 +1,12 @@
+{
+    "liveServer.settings.port": 5502,
+    "liveSassCompile.settings.generateMap": false, // вимикаємо генерацію карти стилів
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded", // розширений, або стиснутий формат стилів
+            "extensionName": ".css", // розширення вихідного файлу
+            "savePath": "/css" // папка, у яку буде компілюватись файл стилів
+        }
+    ]
+
+}

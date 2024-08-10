@@ -1,0 +1,37 @@
+.footer {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-left: 100px;
+    }
+
+    footer {
+        background-color: #2F303A;
+        color: var(--white);
+    }
+
+    .footer-item p {
+        font-size: 14px;
+        line-height: 1.7;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+
+    .footer{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }

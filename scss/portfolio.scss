@@ -1,0 +1,23 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+:root {
+    --blue: #2196F3;
+    --white: #FFFFFF;
+    --black: #2F303A;
+}
+
+@import 'portfolio/header';
+@import 'portfolio/buttons';
+@import 'portfolio/container1';
+@import 'portfolio/current';
+@import 'portfolio/effect-absolution';
+@import 'portfolio/footer';
+@import 'portfolio/image';
+@import 'portfolio/posts';
+@import 'portfolio/text';
+@import 'portfolio/overlay';

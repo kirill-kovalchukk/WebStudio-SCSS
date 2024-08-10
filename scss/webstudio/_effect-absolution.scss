@@ -1,0 +1,24 @@
+.effect-absolution{
+    background-image: url(Img/Img\ \(19\).png);
+}
+
+.effect-absolution-wrap{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.effect-absolution {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #2F303A;
+}
+
+.effect-absolution h1 {
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 900;
+    color: #FFF;
+}

@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif
+}
+
+:root {
+    --black: #2F303A;
+    --blue: #2196F3;
+    --white: #FFFFFF;
+}
+
+body {
+    background-color: var(--white);
+}
+
+@import 'webstudio/header';
+@import 'webstudio/effect-absolution';
+@import 'webstudio/g';
+@import 'webstudio/img';
+@import 'webstudio/footer';
+@import 'webstudio/profile-card';
+@import 'webstudio/menu';
+@import 'webstudio/what-we-do';
+@import 'webstudio//subscription-form';
+@import 'webstudio/social-icons';
+@import 'webstudio/modal';
+@import 'webstudio/futers';
