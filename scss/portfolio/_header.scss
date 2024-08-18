@@ -4,14 +4,14 @@
 }
 
 .header-link {
-    color: var(--aсcent-color-aqua);
+    color: $accent-color-aqua;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
-}
 
-.header-link:hover {
-    color: var(--accent-color-orange);
+    &:hover {
+        color: $accent-color-orange;
+    }
 }
 
 .header-link:hover::before {
@@ -20,7 +20,7 @@
     width: 100%;
     height: 3px;
     bottom: -7px;
-    background-color: var(--accent-color-orange);
+    background-color: $accent-color-orange;
 }
 
 .header-navigation {
@@ -44,12 +44,12 @@
         
         .header-item {
         margin: 0 15px;
-        }
-    
-        .header-item:hover{
+
+        :hover{
             color: rgba(33, 150, 243, 1);
         }
-        
+        }
+    
         .header-item img {
         height: 20px; 
         margin-right: 5px; 
@@ -59,10 +59,10 @@
         text-decoration: none;
         color: #000;
         font-size: 16px;
-        }
-        
-        .header-item a:hover {
-        color: #00f;
+
+        &:hover {
+            color: #00f;
+            }
         }
     
         .header-list .header-item a{

@@ -11,16 +11,11 @@ body {
     font-family: "Roboto", sans-serif
 }
 
-:root {
-    --black: #2F303A;
-    --blue: #2196F3;
-    --white: #FFFFFF;
-}
-
 body {
     background-color: var(--white);
 }
 
+@import 'webstudio/untils/variables';
 @import 'webstudio/header';
 @import 'webstudio/effect-absolution';
 @import 'webstudio/g';

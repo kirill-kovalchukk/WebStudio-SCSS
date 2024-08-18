@@ -7,12 +7,12 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
 
-    .modal:hover svg{
+    &:hover svg{
         fill: #2196F3;
     }
-    
+    }
+
     .modal-close-btn {
     position: absolute;
     top: 0px;
@@ -67,16 +67,13 @@
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.3s, visibility 0.3s;
+
+        &:not(.is-hidden) {
+            visibility: visible;
+            opacity: 1;
+            pointer-events: auto;
+            }
         }
-        
-        .backdrop:not(.is-hidden) {
-        visibility: visible;
-        opacity: 1;
-        pointer-events: auto;
-        }
-        
-        
-        
         
         form input,
         form textarea,

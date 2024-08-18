@@ -1,13 +1,13 @@
-.social-icons-link:hover{
-    fill: white;
-    background-color: #2196F3;
-   }
-
-   .social-icons-link{
+    .social-icons-link{
     padding: 15px;
     border-radius: 50%;
     height: 20px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover{
+        fill: white;
+        background-color: #2196F3;
+       }
    }
 
    .social-icons-link:hover svg{
@@ -17,10 +17,14 @@
    .social-icons {
     display: flex;
     justify-content: center;
-    }
-    
-    .social-icons a {
+
+    a {
     margin: 0 5px;
+    }
+
+    &:hover{
+        color: #2196F3;
+    }
     }
     
     .social-icons img {
@@ -28,15 +32,15 @@
     height: 24px;
     }
 
-    .social-icons:hover{
-        color: #2196F3;
-    }
-
     .phone{
         fill: gray;
         width: 13px;
         height: 13px;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover{
+            fill: #2196F3;
+           }
        }
 
        .envelope{
@@ -44,15 +48,12 @@
         width: 19px;
         height: 19px;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover{
+            fill: #2196F3;
+           }
        }
 
-       .phone:hover{
-        fill: #2196F3;
-       }
-
-       .envelope:hover{
-        fill: #2196F3;
-       }
 
        .instagram{
         width: 20px;
@@ -87,10 +88,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         height: 20px;
         fill: white;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-       }
 
-       .instagram1:hover{
-        fill: white;
+        &:hover{
+            fill: white;
+           }
        }
 
        .facebook1{
@@ -119,61 +120,65 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
        .group{
         fill: gray;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover{
+            fill: #2196F3;
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+           }
        }
 
-       .group:hover{
-        fill: #2196F3;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-       }
 
        .group1{
         fill: gray;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover{
+            fill: #2196F3;
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+           }
        }
 
-       .group1:hover{
-        fill: #2196F3;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-       }
 
        .group2{
         fill: gray;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover{
+            fill: #2196F3;
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+           }
        }
 
-       .group2:hover{
-        fill: #2196F3;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-       }
        
        .group3{
         fill: gray;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover{
+            fill: #2196F3;
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+           }
        }
 
-       .group3:hover{
-        fill: #2196F3;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-       }
 
        .group4{
         fill: gray;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-       }
 
-       .group4:hover{
-        fill: #2196F3;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover{
+            fill: #2196F3;
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+           }
        }
 
        .group5{
         fill: gray;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-       }
 
-       .group5:hover{
-        fill: #2196F3;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover{
+            fill: #2196F3;
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+           }
        }
 
        .social{

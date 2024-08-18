@@ -5,12 +5,7 @@
     padding-right: 15px;
 }
 
-:root {
-    --blue: #2196F3;
-    --white: #FFFFFF;
-    --black: #2F303A;
-}
-
+@import 'portfolio/untils/variables';
 @import 'portfolio/header';
 @import 'portfolio/buttons';
 @import 'portfolio/container1';

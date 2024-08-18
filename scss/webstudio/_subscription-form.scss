@@ -5,12 +5,15 @@
     border-radius: 5px;
     border: 1px solid #666;
     margin-bottom: 10px;
+
+    label {
+        color: #fff;
+        margin-right: 10px;
+        }
+
+
     }
     
-    .subscription-form label {
-    color: #fff;
-    margin-right: 10px;
-    }
     
     .subscription-form input {
     width: 250px;
@@ -19,11 +22,12 @@
     border-radius: 5px;
     margin-right: 10px;
     color: #fff;
-    }
-    
-    .subscription-form input::placeholder {
+
+&::placeholder {
     color: #ccc;
     }
+    }
+    
     
     .subscription-form button {
     background-color: #00aaff;
@@ -32,8 +36,9 @@
     padding: 10px 30px;
     border-radius: 3px;
     cursor: pointer;
+
+    &:hover {
+        background-color: #008ecc;
+        }
     }
     
-    .subscription-form button:hover {
-    background-color: #008ecc;
-    }

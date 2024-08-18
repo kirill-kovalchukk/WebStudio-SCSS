@@ -6,12 +6,6 @@
   padding-right: 15px;
 }
 
-:root {
-  --blue: #2196F3;
-  --white: #FFFFFF;
-  --black: #2F303A;
-}
-
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -118,7 +112,7 @@
 footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--black);
+  background-color: black;
   color: var(--white);
 }
 
