@@ -1,11 +1,11 @@
 .img-item-our-team{
-    display: flex;
+    @extend %flex;
     justify-content: space-around;
     flex-direction: row;
-    align-items: center;
+    @extend %align;
 }
 
 .img-our-team{
-    display: flex;
-    justify-content: space-between;
+    @extend %flex;
+    @extend %justify;
 }

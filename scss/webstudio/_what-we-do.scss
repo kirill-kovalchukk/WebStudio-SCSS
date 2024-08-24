@@ -1,6 +1,6 @@
 .what-we-do{
-    display: flex;
-    justify-content: space-between;
+    @extend %flex;
+    @extend %justify;
     flex-direction: row;
     flex-wrap: nowrap;
     padding-top: 94px;

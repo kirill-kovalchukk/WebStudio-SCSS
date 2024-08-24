@@ -11,8 +11,8 @@
 }
 
 .futers-list{
-    display: flex;
+    @extend %flex;
     list-style: none;
     padding: 0;
-    justify-content: space-between;
+    @extend %justify;
 }

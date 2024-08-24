@@ -1,6 +1,6 @@
 .subscription-form {
-    display: flex;
-    align-items: center;
+    @extend %flex;
+    @extend %align;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #666;

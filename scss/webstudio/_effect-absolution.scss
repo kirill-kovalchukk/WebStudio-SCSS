@@ -1,9 +1,9 @@
 .effect-absolution-wrap{
-display: flex;
+@extend %flex;
 flex-direction: column;
 justify-content: center;
-text-align: center;
-align-items: center;
+@extend %center;
+@extend %align;
 }
 
 .effect-absolution {

@@ -1,5 +1,5 @@
 .footer {
-    justify-content: space-between;
+    @extend %justify;
     padding: 20px;
     background-color: #2F303A;
         color: $white;
@@ -8,8 +8,8 @@
 }
 
 .footer-wrap{
-    display: flex;
-    justify-content: space-between;
+    @extend %flex;
+    @extend %justify;
    }
 
    .footer-container {
@@ -17,7 +17,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    display: flex;
+    @extend %flex;
     justify-content: center;
     justify-content: flex-end;
     margin-left: 100px;

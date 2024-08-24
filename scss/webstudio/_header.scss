@@ -1,7 +1,7 @@
 .header-navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @extend %flex;
+    @extend %justify;
+    @extend %align;
     width: 100%;
     }
     
@@ -11,10 +11,10 @@
 
     .header-list {
         list-style: none;
-        display: flex;
+        @extend %flex;
         margin: 0;
         padding: 0;
-        align-items: center;
+        @extend %align;
         }
         
         .header-item {
@@ -57,14 +57,14 @@
 .contact-info,
 .services,
 .team {
-    display: flex;
+    @extend %flex;
 }
 
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
     flex-direction: column;
-    align-items: center;
+    @extend %align;
 }
 
 .header-item-link:hover{
@@ -86,7 +86,7 @@
     font-weight: 700;
     font-size: 24px;
     width: 330px;
-    text-align: center;
+    @extend %center;
     color: white;
 }
 
@@ -101,7 +101,7 @@
     font-weight: 700;
     font-size: 24px;
     width: 330px;
-    text-align: center;
+    @extend %center;
     color: white;
 }
 
@@ -116,7 +116,7 @@
     font-weight: 700;
     font-size: 24px;
     width: 330px;
-    text-align: center;
+    @extend %center;
     color: white;
 }
 
@@ -141,15 +141,14 @@ button {
 .services,
 .team {
     flex-direction: row;
-    justify-content:
-        space-between;
+    @extend justify;
 }
 
 .intro {
-    display: flex;
+    @extend %flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    @extend %align;
+    @extend %center;
 }
 
 .service,
