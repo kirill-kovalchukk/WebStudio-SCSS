@@ -141,7 +141,7 @@ button {
 .services,
 .team {
     flex-direction: row;
-    @extend justify;
+    @extend %justify;
 }
 
 .intro {
