@@ -31,7 +31,11 @@ body {
 @import 'webstudio/modal';
 @import 'webstudio/futers';
    
-
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
    /* Large: 992px - 1199px */
 @media (max-width: 1199px) {
@@ -45,13 +49,29 @@ body {
         width: 100%;
     }
     .tumb{
-       width: 100%;
+       width: 31%;
     }
-    .what-we-do{
+   /* .what-we-do{
         width: 500px;
     }
+    */
  .profile-card{
     width: 220px;
+ }
+ .Design{
+  width: 100%;
+font-size: 20px;
+padding: 20px 0;
+ }
+ .Mobile{
+  width: 100%;
+font-size: 20px;
+padding: 20px 0;
+ }
+ .Dekstop{
+  width: 100%;
+  font-size: 20px;
+  padding: 20px 0;
  }
   }
   
@@ -64,17 +84,22 @@ body {
         width: 175px;
     }
     .what-we-do{
-        margin-left: -10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+        position: relative;
+        right: 15px;
     }
     .tumb{
-      width: 100%;
+      width: 45%;
     }
 .profile-card{
     width: 210px;
     margin: 0 76px;
     margin-left: -59px;
     position: relative;
-    right: 40px;
+    left: 55px;
 }
 .postini{
     width: 100%;
@@ -82,7 +107,19 @@ body {
     margin: 15px;
     transform: scale(0.9);
     position: relative;
-    right: 45px;
+    left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-our-team{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: space-around;
+  justify-content: center;
+}
+.footer-container{
+  margin-left: 0;
 }
   }
   
@@ -92,31 +129,55 @@ body {
       width: 540px;
     }
     .futers-item{
-      width: 130px;
+      width: 45%;
     }
     .img-our-team{
       display: flex;
      flex-direction: column;
      align-items: center;
      gap: 25px;
-     padding-left: 99px;
+     padding-left: 0;
     }
     .what-we-do{
       display: flex;
       flex-direction: column;
       gap: 15px;
-      padding-left: 99px;
+      padding-left: 0;
     }
     .our-team-title{
       padding-left: 160px;
     }
     .what-we-do-item{
-      padding-left: 149px;
+      padding-left: 110px;
     }
     .postini{
-      transform: scale(0.7);
-      position: relative;
-      right: 117px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .futers-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .tumb{
+      width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+    .profile-card{
+      width: 100%;
+    }
+    .footer-wrap{
+      display: flex;
+      flex-direction: column;
+    }
+    .subscription-form{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-container{
+      margin-left: 0;
+      justify-content: center;
     }
   }
   
@@ -128,23 +189,31 @@ body {
     }
     .profile-card{
       position: relative;
-      left: 20px;
+      right: 65px;
     }
     .our-team-title{
       position: relative;
-      left: 35px;
+      right: 50px;
     }
     .tumb{
       position: relative;
-      right: 90px;
     }
     .what-we-do-item{
       position: relative;
-      right: 100px;
     }
     .postini{
-      transform: scale(0.5);
+      gap: 10px;
+      display: flex;
+      flex-wrap: wrap;
       position: relative;
-      right: 139px;
+      left: 15px;
+    }
+    .effect-absolution-title {
+      font-size: 26px !important;
+      line-height: 0;
+      font-weight: 0;
+    }
+    .futers-item{
+      width: 100%;
     }
   }
